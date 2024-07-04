@@ -11,13 +11,13 @@ luci-app-gpoint
 #luci-app-telegrambot
 #luci-app-rtorrent
 #qtools
-#ethstatus
+ethstatus
 #xmm-modem
 #luci-theme-lightblue
 #luci-theme-teleofis
 #asterisk-chan-quectel
 #mrtg
-#nload
+nload
 #atinout
 #speedtestpp
 #ttymux
