@@ -6,15 +6,21 @@
 # 
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
-name: Modemfeed CI
+name: custom feed CI
+#trigger on push master branche
 on:
-  push:
-    branches: 
-      - master
-  # schedule:
-  #   - cron: 0 20 * * *
-  # release:
-  #   types: [published]
+#  push:
+#    branches: 
+#      - master
+  
+#   schedule:
+#     - cron: 0 20 * * *
+#   release:
+#     types: [published]
+
+
+  workflow_call:
+  
 jobs:
   build:
     runs-on: ubuntu-20.04
